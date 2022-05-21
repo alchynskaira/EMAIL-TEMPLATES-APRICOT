@@ -1,0 +1,525 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap" rel="stylesheet">
+    <title>Apricot Balance Grew</title>
+    <style type="text/css">
+
+        @font-face {
+            font-family: Cambon;
+            src: url('./fonts/cambon/Cambon-ThinItalic.woff') format("woff");
+            font-style: italic;
+            font-weight: 100;
+
+        }
+        @font-face {
+            font-family: Cambon;
+            src: url('./fonts/cambon/Cambon-Thin.woff') format("woff");
+            font-style: normal;
+            font-weight: 300;
+
+        }
+
+        @font-face {
+            font-family: GoodS;
+            src: url('./fonts/bold/GoodSans-Bold.woff') format("woff"),
+            url('./fonts/bold/GoodSans-Bold.eot') format("eot");
+            font-weight: bold;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: GoodS;
+            src: url('./fonts/light/GoodSans-Light.woff') format("woff"),
+            url('./fonts/light/GoodSans-Light.eot') format("eot");
+            font-weight: 300;
+            font-style: normal;
+        }
+
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+
+        #outlook a {
+            padding: 0;
+        }
+
+        img {
+            -ms-interpolation-mode: bicubic;
+        }
+
+        table {
+            mso-table-lspace: 0;
+            mso-table-rspace: 0;
+        }
+
+
+        p, a, li, td, blockquote {
+            mso-line-height-rule: exactly;
+        }
+
+        a[href^=tel], a[href^=sms] {
+            color: inherit;
+            cursor: default;
+            text-decoration: none;
+        }
+
+        p, a, li, td, body, table, blockquote {
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        span, a {
+            font-family: GoodS, Helvetica, sans-serif;
+            font-weight: 300;
+            font-style: normal;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        img, a img {
+            border: 0;
+            height: auto;
+            outline: none;
+            text-decoration: none;
+        }
+
+        img {
+            -ms-interpolation-mode: bicubic;
+        }
+
+        td {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+
+        .wrapper {
+            width: 100%;
+            table-layout: fixed;
+            background-color: #FCF9F7;
+        }
+
+        .webkit {
+            max-width: 600px;
+            margin-right: auto;
+            margin-left: auto;
+            background-color: #FCF9F7;
+        }
+
+        .outer {
+            margin: 0 auto;
+            width: 100%;
+            max-width: 600px;
+            border-spacing: 0;
+            font-family: "Goods", Helvetica, sans-serif;
+            background-color: #fff;
+        }
+
+        .balance-title {
+            font-family: "Cambon", "Times New Roman", serif;
+            font-style: italic;
+            font-weight: 300;
+            line-height: 42px;
+            font-size: 40px;
+        }
+
+
+
+        .highlighted-text {
+            font-family: "Cambon", "Times New Roman", serif;
+            font-style: italic;
+            font-weight: 100;
+            line-height: 42px;
+            font-size: 40px;
+            color: #3C9B48;
+        }
+
+        .main-container {
+            padding-right: 48px;
+            padding-left: 48px;
+        }
+
+
+        .button-container {
+            padding-left: 171px;
+            padding-right: 171px;
+        }
+
+        .border-container {
+            border-collapse: separate;
+            border: 1px solid #979797;
+            border-radius: 8px;
+            text-align: center;
+            align-items: center;
+        }
+
+        .request-code {
+            font-family: "Cambon", "Times New Roman", serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 40px;
+            line-height: 42px;
+            text-align: center;
+            color: #3C9B48;
+            padding: 15px 86px;
+        }
+
+        .balance-text-container {
+            padding-right: 126px;
+            padding-left: 124px;
+        }
+
+        .balance-text {
+            font-family: "Good Sans", Helvetica, sans-serif;
+            font-weight: 300;
+            font-size: 10px;
+            line-height: 14px;
+            color: #1F1F1E;
+            padding-bottom: 50px;
+            padding-top: 40px;
+
+        }
+
+        .grew-main-text {
+            font-family: "Good Sans", Helvetica, sans-serif;
+            font-weight: 300;
+            line-height: 32px;
+            font-size: 20px;
+        }
+
+        .question-block {
+            padding-bottom: 10px;
+        }
+
+        .help-email-container {
+            padding-left: 84px;
+            padding-right: 84px;
+        }
+
+        .email-block {
+            padding-bottom: 50px;
+        }
+
+        .email-text-container {
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 21px;
+            text-align: center;
+        }
+
+        .footer-text-box {
+            font-family: "Good Sans", Helvetica, sans-serif;
+            font-weight: 300;
+            font-size: 10px;
+            line-height: 15px;
+            color: #9C9B9A;
+        }
+
+        .footer-container {
+            font-family: "Good Sans", Helvetica, sans-serif;
+            padding-left: 121px;
+            padding-right: 101px;
+        }
+
+
+
+        @media only screen and (max-width: 767px) {
+            .webkit {
+                max-width: 400px;
+            }
+            .icon-display-none {
+                display: none !important;
+            }
+
+            .balance-title {
+                font-weight: 250 !important;
+                line-height: 35px !important;
+                font-size: 35px !important;
+            }
+
+
+
+            .balance-title-padding {
+                padding-top: 30px !important;
+            }
+
+
+            .button-container {
+                padding-left: 5px !important;
+                padding-right: 5px !important;
+            }
+
+            .balance-text {
+                padding-right: 39px !important;
+                padding-left: 39px !important;
+                font-weight: 300 !important;
+                font-size: 12px !important;
+                line-height: 14px !important;
+            }
+
+            .help-email-container {
+                padding-right: 5px !important;
+                padding-left: 5px !important;
+            }
+
+            .footer-container {
+                padding-left: 5px !important;
+                padding-right: 5px !important;
+            }
+
+            .email-block {
+                padding-left: 5px !important;
+                padding-right: 5px !important;
+
+            }
+
+        }
+
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <div class="webkit" style="background-color: #FCF9F7;">
+        <table class="outer" align="center" width="100%">
+            <tr>
+                <td>
+                    <table width="100%" style="border-spacing: 0">
+                        <tr>
+                            <td style="background-color: #FCF9F7;padding: 22px;text-align: center"><a
+                                    href="https://logo.com">
+                                <img width="127px" src="https://picsum.photos/127/17" alt="logo" title="Logo">
+                            </a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table width="100%" style="border-spacing: 0">
+                        <tr>
+                            <td style="padding-top: 27px;padding-bottom: 10px;text-align: center" class="icon-display-none">
+                                <a href="#">
+                                <img src="https://picsum.photos/66/66" alt="your balance image" title="Balance">
+                            </a>
+                            </td>
+                        </tr>
+                    </table>
+            <tr>
+                <td>
+                    <table width="100%" style="border-spacing: 0" class="main-container">
+                        <tr>
+                            <td>
+                                <table width="100%" style="border-spacing: 0">
+                                    <tr>
+                                        <td style="padding-bottom: 30px;text-align: center"
+                                            class="balance-title-padding">
+                                            <div class="margin-title" style="width: 350px;margin: 0 auto">
+                                                <p style="font-size: 40px; font-weight: 300; font-style: italic"
+                                                   class="balance-title">Your <span class="highlighted-text">Apricot Balance</span>
+                                                    Just Grew</p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table width="100%" cellspacing="0" cellpadding="0" style="border-spacing: 0;"
+                           class="button-container">
+                        <tr>
+                            <td>
+                                <table width="100%" style="border-spacing: 0">
+                                    <tr>
+                                        <td style="padding-bottom: 8px;text-align: center">
+                                            <div style="text-align: center" class="main-text-block">
+                                                <span style="font-size: 20px" class="grew-main-text">Your new balance is:</span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table width="100%" cellspacing="0" cellpadding="0"
+                                       style="border-spacing: 0;"
+                                       class="button-container">
+                                    <tr>
+                                        <td>
+                                            <table align="center" width="100%" cellspacing="0"
+                                                   cellpadding="0" style="border-spacing: 0;">
+                                                <tr>
+                                                    <td>
+                                                        <table class="border-container" align="center">
+                                                            <tr>
+                                                                <td style="font-style: normal;font-weight: 300;color: #3C9B48;font-size: 40px;
+                                                                    line-height: 42px;">
+                                                                    <p  class="request-code">$15.00</p>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table width="100%" style="border-spacing: 0;" class="balance-text-container">
+                        <tr>
+                            <td>
+                                <table width="100%" style="border-spacing: 0;">
+                                    <tr>
+                                        <td class="balance-text" align="center"
+                                            style="text-align: center; font-size: 10px;
+                                            line-height: 14px;padding-left:139px;padding-right: 139px;  color: #1F1F1E;">
+                                            <div>
+                            <span>Cash will be added to your Apricot balance every time you
+                                buy anything on Apricot or somebody else purchases from your Collection.</span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table width="100%" cellspacing="0" cellpadding="0" style="border-spacing: 0;"
+                           class="button-container">
+                        <tr>
+                            <td>
+                                <table align="center" border="0" cellpadding="0" cellspacing="0"
+                                       class="primary-btn-container"
+                                       style="border-collapse: separate !important;border-radius: 2px;background-color: #EC6F4A;">
+                                    <tr>
+                                        <td align="center" valign="middle" class="reset-btn"
+                                            style="font-size: 16px; padding: 15px 45px;color: white">
+                                            <a class="primary-btn link" title="Reset Password" href="" target="_blank"
+                                               style="border-radius: 2px;letter-spacing: normal;text-align: center;text-decoration: none;color: #ffffff !important;">View Balance Details
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table width="100%" style="border-spacing: 0;" class="help-email-container">
+                        <tr>
+                            <td>
+                                <table width="100%" style="border-spacing: 0;">
+                                    <tr>
+                                        <td class="question-block" align="center">
+                                            <div style="text-align: center;padding-top: 50px">
+                                                <span style="font-size:14px;line-height: 17px;font-weight: 300">NEED HELP?</span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table width="100%" style="border-spacing: 0;">
+                                    <tr>
+                                        <td class="email-block" align="center">
+                                            <div class="email-text-container" style="text-align: center;">
+                                                <span class="" style="font-size: 14px">Email us at</span>
+                                                <span><a href="mailto: hello@myapricot.com"
+                                                         style="color: #EC6F4A;font-weight: 500">hello@myapricot.com</a>.</span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table class="footer-container" style="border-spacing: 0;" width="100%">
+                        <tr>
+                            <td style="background-color: #FCF9F7; padding: 30px 0px 13px 0px;text-align:center">
+                                <a href="https://www.instagram.com/joinmyapricot/" target="_blank"><img
+                                        alt="instagram" height="30" src="https://picsum.photos/30"
+                                        width="30"></a>
+                                <a href="https://www.facebook.com/joinmyapricot" target="_blank"><img
+                                        alt="facebook" height="30" src="https://picsum.photos/30"
+                                        width="30"></a>
+                                <a href="https://www.linkedin.com/company/myapricot/" target="_blank"><img
+                                        alt="linkedin" height="30" src="https://picsum.photos/30"
+                                        width="30"></a>
+                                <a href="https://www.pinterest.com/joinmyapricot/_saved/"
+                                   target="_blank"><img alt="pinterest" height="30"
+                                                        src="https://picsum.photos/30" width="30"></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center" class="footer-text-box"
+                                style="background-color: #FCF9F7;padding-bottom: 30px;text-align: center">
+                                <p class="mobile-display-none">If you no longer wish to receive our emails, <a
+                                        href="https://www.myapricot.com/privacy-policy/"
+                                        style="color:#9C9B9A;text-decoration: underline;"
+                                        target="_blank">click here</a> to unsubscribe.</p>
+                                <p class="text-with-link">For more information
+                                    about our privacy policy, <a
+                                            href="https://www.myapricot.com/privacy-policy/"
+                                            style="color:#9C9B9A;text-decoration: underline;"
+                                            target="_blank">click here</a>.
+                                </p><br>
+                                <p class="text-middle-1">Please do not reply to
+                                    this email.<br>
+                                    Emails sent to this address will not be answered.</p><br>
+                                <p class="text-copy">Copyright © My Apricot LLC</p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+</body>
+</html>
